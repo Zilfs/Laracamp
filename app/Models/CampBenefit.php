@@ -10,6 +10,7 @@ class CampBenefit extends Model
     use HasFactory;
 
     protected $fillablr = [
+        'camp_id',
         'name',
     ];
 }
